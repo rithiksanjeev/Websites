@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Poppins';
+}
+header
+{
+    width: 100%;
+    /* 70 percent of entire website height */
+    height: 70vh;
+    /* does not allow to overfloe */
+    overflow: hidden;
+    position: relative;
+    /* fit whole image in background */
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+.header-image{
+    width: 100%;
+    position: absolute;
+    top: -20vh;
+    z-index: -1;
+}
+.header-image img
+{
+    width: 100%;
+}
+.nav
+{
+    /* it will go from left to right horizontally */
+    display: flex;
+    /* space between two components */
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-size: 1rem;
+    margin: 0 40px;
+}
+.nav-bar
+{
+    /* dont want bullets in list */
+    list-style: none;
+    font-weight: lighter;
+    display: flex;
+    gap: 1.5rem;
+}
+.head{
+    display: flex;
+    /* by default it will be row now it will go column wise */
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 7vh;
+    align-items: center;
+}
+.logo{
+    width: 20vw;
+}
+.head h3{
+    font-size: 2.1rem;
+    color: whitesmoke;
+    font-weight: 400;
+}
+.search{
+    display: flex;
+    width: 55vw;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px 4px;
+}
+.search .search-item{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.search .search-item p{
+   color: grey;
+
+   font-size: 15px;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+.search .search-item input{
+    border: none;
+    outline: none;
+    width: 500px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+/* targets first child in same class */
+.search .search-item:first-child{
+    color: palevioletred;
+    width: 30%;
+}
+.search.search-item:last-child{
+    width: 100%;
+    color: grey;
+}
+/* Section1 */
+
+.section1 
+{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 4rem;
+}
+
+.section1 .section1-item
+{
+    position: relative;
+    width: 240px;
+    margin: 3px 5px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: white;
+    border: 1px solid rgb(228,228,228);
+}
+.section1 .section1-item img
+{
+    width: 100%;
+    border: 1px solid rgb(228);
+    border-radius: 10px;
+}
+.section1 .section1-item .item_detail
+{
+    position: absolute;
+    bottom: 3px;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    background-color: white;
+    width: 100%;
+}
+.section1 .section1-item p
+{
+    text-align: center;
+}
+/* Section 2 */
+
+.section2 
+{
+   width: 1080px;
+   margin: 0 auto;
+   margin-bottom: 4rem;
+}
+.section2-heading
+{
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 400px;
+}
+.section2-items
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section2-item
+{
+    width: 100%;
+    max-width: 26%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgb(215,215,215);
+    padding: 20px;
+}
+.item_head
+{
+    font-size: 1.2rem;
+    color: rgb(21, 4, 4);
+    margin: 0px;
+    margin-bottom: 5px;
+}
+.places
+{
+    font-weight: lighter;
+    color: rgb(40, 24, 24);
+    margin: 0px;
+}
+/* section 3 */
+.section-3 {
+    height: 620px;
+    background-color: rgb(255, 251, 247);
+}
+.section-3-container{
+    width: 1080px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section-3-img {
+    width: 40%;
+}
+.section-3-img img {
+    width: 400px;
+}
+.section-3-content h1 {
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.section-3-content p{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.section-3-download img{
+    width: 40%;
+}
+/* footer */
+footer
+{
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
