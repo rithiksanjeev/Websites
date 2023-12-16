@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #B6C4B6;
+}
+#main-image
+{
+    background-image: url(https://www.shutterstock.com/image-vector/indian-army-day-people-saluting-260nw-2096536879.jpg);
+    background-repeat: no-repeat;
+    background-color: #B6C4B6;
+    /* this sticks to background as such */
+    background-blend-mode:color-burn;
+    background-position: center;
+    /* this gives the complete image */
+    background-size: cover;
+    height: 550px;
+    width: 60%;
+}
+/* centering the tags */
+header
+{
+    /* top right bottom left */
+    margin: 50px 0 2px 0;
+    text-shadow: 22px 8px 3px #ABABB3;
+}
+section
+{
+    /* top right bottom left all are auto */
+    margin: auto;
+    margin-bottom: 24px;
+}
+footer
+{
+    height: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
