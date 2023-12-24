@@ -4,5 +4,6 @@
 
 1. [Indian Army tribute page](https://rithiksanjeev.github.io/Clone-websites/Tribute%20page/)
 2. [Zomato clone using html and css alone](https://rithiksanjeev.github.io/Clone-websites/Zomato/)
+3. [ClotheZone using bootstrap](https://rithiksanjeev.github.io/Clone-websites/Bootstraped-site/)
 
 # Made with ❤️ by Rithik Sanjeev 
