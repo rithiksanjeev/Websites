@@ -161,6 +161,7 @@ nav ul li a:hover{
 {
     display: flex;
     justify-content: center;
+    gap: 10px;
 }
 
 #project div
