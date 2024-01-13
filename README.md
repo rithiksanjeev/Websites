@@ -6,5 +6,7 @@
 2. [Zomato using html and css alone](https://rithiksanjeev.github.io/Websites/Zomato/)
 3. [ClotheZone using bootstrap](https://rithiksanjeev.github.io/Websites/Bootstraped-Clothezone/)
 4. [My portfolio](https://rithiksanjeev.github.io/Websites/Portfolio)
+5. [URL Shortner](https://rithiksanjeev.github.io/Websites/URL-Shortner/)
+   eg: https://rithiksanjeev.github.io/Websites/URL-Shortner/?q=rithik
 
 # Made with ❤️ by Rithik Sanjeev 
