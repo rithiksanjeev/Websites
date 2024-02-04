@@ -25,7 +25,6 @@ body
 /* header section classes */
 nav
 {
-    padding: 5px;
     background-color: var(--primary-dark-color);
     /* position fixed makes it sticky */
     position: fixed;
@@ -218,4 +217,37 @@ nav ul li a:hover{
     height: 60px;
 }
 
+/* Scroll progress bar */
 
+.scroll-container
+{
+   width: 100%;
+}
+
+.scroll-bar
+{
+    /* based on scroll height show %of width for scroll */
+    width: 0%;
+    display: inline-block;
+    background-color: var(--secondary-light-color);
+    border-radius: 8px;
+}
+.to-bottom
+{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 30px;
+    height: 35px; 
+    display: none;
+}
+
+.to-top
+{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 30px;
+    height: 35px; 
+    display: none;
+}

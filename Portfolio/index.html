@@ -12,8 +12,32 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Scroll progress bar -->
     <header>
         <nav>
+            <!-- To bottom button -->
+            <div class = "scroll-buttons">
+                
+                <button class="to-bottom" onclick="scrollToBottom()" id="to-bottom">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 5.25 7.5 7.5 7.5-7.5m-15 6 7.5 7.5 7.5-7.5" />
+                      </svg>                  
+                </button>
+
+                <button class="to-top" onclick="scrollToTop()" id="to-top">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                        <path fill-rule="evenodd" d="M11.47 10.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 12.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z" clip-rule="evenodd" />
+                        <path fill-rule="evenodd" d="M11.47 4.72a.75.75 0 0 1 1.06 0l7.5 7.5a.75.75 0 1 1-1.06 1.06L12 6.31l-6.97 6.97a.75.75 0 0 1-1.06-1.06l7.5-7.5Z" clip-rule="evenodd" />
+                      </svg>              
+                </button>
+            </div>
+            
+            <div class="scroll-container">
+                <div class="scroll-bar" id="scroll-bar">
+                    .
+                </div>
+            </div>
+            
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>    
@@ -151,6 +175,10 @@
 
             </div>
          </section>
+
+         <script src="script.js">
+
+         </script>
          
 </body>
 </html>
